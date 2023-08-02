@@ -20,6 +20,8 @@ void *
 	size_t	i;
 
 	i = 0;
+	if (count != 0 && (SIZE_MAX / count) < size)
+		return (NULL);
 	res = malloc(count * size);
 	if (res == NULL)
 		return (res);
