@@ -12,7 +12,7 @@
 
 int
 	ft_isdigit(int c) {
-	if (c >= (int) '0' && c <= (int) '9')
+	if (c >= '0' && c <= '9')
 	{
 		return (1);
 	}
