@@ -22,6 +22,6 @@ char *
 	res = malloc(len);
 	if (res == NULL)
 		return (res);
-	ft_strlcpy(res, s1, len + 1);
+	ft_strlcpy(res, s1, len);
 	return (res);
 }
